@@ -1,22 +1,23 @@
+<!--this is a card of user info-->
 <template>
   <div class="card card-user">
     <div class="image">
-      <img src="static/img/background.jpg" alt="...">
+      <img src="" alt="">
     </div>
     <div class="content">
       <div class="author">
-        <img class="avatar border-white" src="static/img/faces/face-2.jpg" alt="...">
-        <h4 class="title">Chet Faker
+        <img class="avatar border-white" src="" alt="">
+        <h4 class="title">Project Manager
           <br>
           <a href="#">
-            <small>@chetfaker</small>
+            <small>@SmartFishPond</small>
           </a>
         </h4>
       </div>
       <p class="description text-center">
-        "I like the way you work it
-        <br> No diggity
-        <br> I wanna bag it up"
+        
+        <br> 
+        <br> 
       </p>
     </div>
     <hr>
@@ -32,22 +33,25 @@
     </div>
   </div>
 </template>
+
+
+
 <script>
   export default {
     data () {
       return {
         details: [
           {
-            title: '12',
-            subTitle: 'Files'
+            title: '123',
+            subTitle: 'Test'
           },
           {
-            title: '2GB',
-            subTitle: 'Used'
+            title: '123',
+            subTitle: 'Test'
           },
           {
-            title: '24,6$',
-            subTitle: 'Spent'
+            title: '123',
+            subTitle: 'Test'
           }
         ]
       }

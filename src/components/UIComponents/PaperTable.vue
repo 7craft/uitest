@@ -2,6 +2,7 @@
   <div>
     <div class="header">
       <slot name="header">
+        <h4 class="title">User List</h4>
         <h4 class="title">{{title}}</h4>
         <p class="category">{{subTitle}}</p>
       </slot>

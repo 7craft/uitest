@@ -1,7 +1,7 @@
 <template>
   <div :class="sidebarClasses" :data-background-color="backgroundColor" :data-active-color="activeColor">
     <!--
-            Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black | darkblue"
+            Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black | darkblue |backgroundColor"
             Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
         -->
     <!-- -->
@@ -9,9 +9,9 @@
       <div class="logo">
         <a href="#" class="simple-text">
             <div class="logo-img">
-                <img src="static/img/vue-logo.png" alt="">
+                <img src="" alt="">
             </div>
-          Paper Dashboard
+          FishPond
         </a>
       </div>
       <slot>
@@ -48,7 +48,7 @@
       },
       backgroundColor: {
         type: String,
-        default: 'black',
+        default: 'darkblue',
         validator: (value) => {
           let acceptedValues = ['white', 'black', 'darkblue']
           return acceptedValues.indexOf(value) !== -1

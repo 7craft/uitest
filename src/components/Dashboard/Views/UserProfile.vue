@@ -13,14 +13,21 @@
 
         </edit-profile-form>
       </div>
+
+      </div>
     </div>
 </template>
+<!--
+  import UserWorkTable from './UserProfile/UserWorkTable.vue'
+  -->
+
 <script>
   import EditProfileForm from './UserProfile/EditProfileForm.vue'
   import UserCard from './UserProfile/UserCard.vue'
   import MembersCard from './UserProfile/MembersCard.vue'
   export default {
     components: {
+      UserWorkTable,
       EditProfileForm,
       UserCard,
       MembersCard

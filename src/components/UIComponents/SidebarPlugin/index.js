@@ -5,7 +5,7 @@ const SidebarStore = {
   sidebarLinks: [
     {
       name: 'Dashboard',
-      icon: 'ti-panel',
+      icon: 'ti-layout-media-center-alt',
       path: '/admin/overview'
     },
     {
